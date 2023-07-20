@@ -1,0 +1,43 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+a{
+    font-family: 'Nunito Sans', sans-serif;
+}
+input{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.card-body{
+    background-color: #00000061;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+.card:hover .card-body{
+    opacity: 1;
+    top: 0;
+}
+.card:hover .card-content{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+.form{
+    width: 45%;
+}
+.form-sub{
+    width: 93%;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px)  {
+    .form{
+        width: 100%;
+    }
+    .form-sub{
+        width: 100%;
+    }
+}

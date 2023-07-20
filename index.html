@@ -1,0 +1,488 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/Css/Tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="w-full absolute top-0 left-0 z-20">
+        <div class="2xl:w-8/12 xl:w-11/12 mx-auto">
+            <header class="text-gray-600 body-font">
+                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+                        <span class="ml-3 text-xl"><img class="w-2/4" src="Images/logo.png"></span>
+                    </a>
+                    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                        <a class="mr-7 text-pink-500 text-base hover:hover:cursor-pointer">Home</a>
+                        <a
+                            class="mr-7 text-white duration-700 text-base hover:text-pink-500 hover:duration-700 hover:cursor-pointer">About</a>
+                        <a
+                            class="mr-7 text-white duration-700 text-base hover:text-pink-500 hover:duration-700 hover:cursor-pointer">Services</a>
+                        <a
+                            class="mr-7 text-white duration-700 text-base hover:text-pink-500 hover:duration-700 hover:cursor-pointer">Client</a>
+                        <a
+                            class="mr-7 text-white duration-700 text-base hover:text-pink-500 hover:duration-700 hover:cursor-pointer">Portfolio</a>
+                        <a
+                            class="mr-7 text-white duration-700 text-base hover:text-pink-500 hover:duration-700 hover:cursor-pointer">Blog</a>
+                        <a
+                            class="mr-7 text-white duration-700 text-base hover:text-pink-500 hover:duration-700 hover:cursor-pointer">Contact</a>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div
+        class="bg-[url('/Images/header-bg.jpg')] bg-cover bg-no-repeat bg-center h-screen w-full flex justify-center items-center relative">
+        <div class="w-full absolute h-full top-0 left-0 bg-black opacity-50"></div>
+        <div class="2xl:w-1/2 lg:w-3/4 w-full mx-auto">
+            <div class=" text-center z-10 relative md:px-0 px-3">
+                <h3 class="font-medium text-3xl text-white pb-5">Welcome</h3>
+                <h1 class=" md:text-6xl text-4xl text-white font-semibold pb-5"><span class="text-white font-medium">I'M
+                    </span>A
+                    Graphic Designer
+                </h1>
+                <div class="xl:px-52 md:px-40 px-0">
+                    <p class="text-1xl font-normal text-white">It is a long established fact that a reader will be
+                        of a
+                        page
+                        when established fact looking at its layout.</p>
+                </div>
+
+                <a class="text-white font-semibold text-md uppercase border-2 border-white py-3 px-8 inline-block rounded-full hover:text-black hover:bg-white mt-8"
+                    href="#">Download Cv</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="2xl:w-4/6 md:w-11/12 w-full mx-auto md:px-6 px-3 py-28">
+        <div class="lg:flex items-center gap-8">
+            <div class="lg:w-1/2 w-full lg:pb-0 pb-8">
+                <img class="w-full p-1 border border-gray-300" src="Images/about.jpg">
+            </div>
+            <div class="lg:w-1/2 w-full">
+                <h2 class="text-3xl font-semibold text-gray-900 pb-6"><span
+                        class="text-3xl font-bold text-gray-900">About</span> Me</h2>
+                <h3 class="text-gray-900 text-2xl font-semibold pb-4">Hello! <span
+                        class="text-pink-500 text-2xl font-bold">I'M Kerri
+                        Deo.</span></h3>
+                <p class="text-1xl font-normal text-gray-500 pb-4">It is a long established fact that a reader will be
+                    distracted by the readable content of a page when
+                    looking at its layout. </p>
+                <p class="text-1xl font-normal text-gray-500 pb-4">The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as
+                    opposed to using 'Content here, content here', making it look like readable English.</p>
+                <p class="text-1xl font-normal text-gray-500 pb-6">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable.</p>
+                <ul class="flex">
+                    <li class="pr-3"><a href="#"><i
+                                class="fa-solid fa-basketball text-black border-2 border-gray-300 p-3 rounded-full hover:text-pink-500  hover:border-pink-500"></i></a>
+                    </li>
+                    <li class="pr-3"><a href="#"><i
+                                class="fa-brands fa-facebook-f text-black border-2 border-gray-300 py-3 px-4 rounded-full hover:text-pink-500 hover:border-pink-500"></i></a>
+                    </li>
+                    <li class="pr-3"><a href="#"><i
+                                class="fa-brands fa-linkedin-in text-black border-2 border-gray-300 p-3 rounded-full hover:text-pink-500 hover:border-pink-500"></i></a>
+                    </li>
+                    <li class="pr-3"><a href="#"><i
+                                class="fa-brands fa-twitter text-black border-2 border-gray-300 p-3 rounded-full hover:text-pink-500  hover:border-pink-500"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-50">
+        <div class="2xl:w-1/2 lg:w-2/3 w-full mx-auto px-6 py-20 text-center">
+            <h2 class="text-3xl font-semibold text-gray-900 pb-6">Our <span
+                    class="text-3xl font-bold text-gray-900">Services</span></h2>
+            <div class="w-1/2 lg:w-9/12 md:w-4/6 w-full mx-auto 2xl:px-0 xl:px-8">
+                <p class="text-1xl font-normal text-gray-500">It is a long established fact that a reader will be of a
+                    page
+                    when established fact looking at its layout.</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-50">
+        <div class="2xl:w-4/6 md:w-11/12 w-full mx-auto px-6 pb-28">
+            <div class="grid xl:grid-cols-3 lg:grid-cols-3 gap-7">
+                <div class="text-center border border-gray-300 p-6">
+                    <img src="Images/growing-chart-svgrepo-com.svg" class="w-12 text-pink-500 mx-auto">
+                    <h3 class="text-gray-900 text-2xl font-semibold py-4">Graphic Design</h3>
+                    <div class="bg-pink-500 w-10 h-0.5 my-2 mx-auto"></div>
+                    <p class="text-1xl font-normal text-gray-500">There are many variations of passages of but the
+                        majority have suffered alteration in some form.</p>
+                </div>
+                <div class="text-center border border-gray-300 p-6">
+                    <img src="Images/cup-hot-svgrepo-com.svg" class="w-12 text-pink-500 mx-auto">
+                    <h3 class="text-gray-900 text-2xl font-semibold py-4">Unlimited Color</h3>
+                    <div class="bg-pink-500 w-10 h-0.5 my-2 mx-auto"></div>
+                    <p class="text-1xl font-normal text-gray-500">There are many variations of passages of but the
+                        majority have suffered alteration in some form.</p>
+                </div>
+                <div class="text-center border border-gray-300 p-6">
+                    <img src="Images/upload-svgrepo-com.svg" class="w-12 text-pink-500 mx-auto">
+                    <h3 class="text-gray-900 text-2xl font-semibold py-4">Media Marketing</h3>
+                    <div class="bg-pink-500 w-10 h-0.5 my-2 mx-auto"></div>
+                    <p class="text-1xl font-normal text-gray-500">There are many variations of passages of but the
+                        majority have suffered alteration in some form.</p>
+                </div>
+                <div class="text-center border border-gray-300 p-6">
+                    <img src="Images/layers-svgrepo-com.svg" class="w-12 text-pink-500 mx-auto">
+                    <h3 class="text-gray-900 text-2xl font-semibold py-4">Unlimited Wifi</h3>
+                    <div class="bg-pink-500 w-10 h-0.5 my-2 mx-auto"></div>
+                    <p class="text-1xl font-normal text-gray-500">There are many variations of passages of but the
+                        majority have suffered alteration in some form.</p>
+                </div>
+                <div class="text-center border border-gray-300 p-6">
+                    <img src="Images/website-theme-svgrepo-com.svg" class="w-12 text-pink-500 mx-auto">
+                    <h3 class="text-gray-900 text-2xl font-semibold py-4">Responsive Design</h3>
+                    <div class="bg-pink-500 w-10 h-0.5 my-2 mx-auto"></div>
+                    <p class="text-1xl font-normal text-gray-500">There are many variations of passages of but the
+                        majority have suffered alteration in some form.</p>
+                </div>
+                <div class="text-center border border-gray-300 p-6">
+                    <img src="Images/note-svgrepo-com.svg" class="w-12 text-pink-500 mx-auto">
+                    <h3 class="text-gray-900 text-2xl font-semibold py-4">Easy to customize</h3>
+                    <div class="bg-pink-500 w-10 h-0.5 my-2 mx-auto"></div>
+                    <p class="text-1xl font-normal text-gray-500">There are many variations of passages of but the
+                        majority have suffered alteration in some form.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-11/12 mx-auto px-6 py-28 text-center">
+        <h2 class="md:text-4xl text-2xl font-semibold text-gray-900 pb-6">I Am Available For Freelancer.</h2>
+        <div class="md:w-1/2 w-full mx-auto px-8">
+            <a class="py-4 px-8 rounded inline-block bg-pink-500 text-white uppercase font-semibold text-sm"
+                href="#">Hire
+                Me!</a>
+        </div>
+    </div>
+    <div class="bg-gray-100">
+        <div class="w-11/12 mx-auto md:px-6 pt-28 pb-20 text-center">
+            <h2 class="text-3xl font-semibold text-gray-900 pb-6">Our <span
+                    class="text-3xl font-bold text-gray-900">Client</span></h2>
+            <div class="2xl:w-1/2 lg:w-9/12 md:w-4/6 mx-auto 2xl:px-36 xl:px-8">
+                <p class="text-1xl font-normal text-gray-500">It is a long established fact that a reader will be of a
+                    page
+                    when established fact looking at its layout.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-gray-100">
+        <div class="w-11/12 mx-auto md:px-5 pb-20 text-center">
+            <img class="w-16 pb-3 mx-auto" src="Images/quote-left-svgrepo-com.svg">
+            <img class="rounded-full p-1 border border-gray-300 mx-auto" src="Images/testi-1.jpg">
+            <div class="2xl:w-1/2 md:w-5/6 mx-auto 2xl:px-16 xl:px-8">
+                <p class="text-1xl font-normal text-gray-500 py-4">" The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                <p class="text-1xl font-normal text-black py-4">- Ebony verty, <span
+                        class="font-bold text-black">Envato</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="w-11/12 mx-auto md:px-6 pt-28 pb-20 text-center">
+        <h2 class="text-3xl font-semibold text-gray-900 pb-6">Our <span
+                class="text-3xl font-bold text-gray-900">Works</span></h2>
+        <div class="2xl:w-1/2 lg:w-9/12 md:w-4/6 sm:w-4/6 w-full mx-auto 2xl:px-36 xl:px-8">
+            <p class="text-1xl font-normal text-gray-500">It is a long established fact that a reader will be of a
+                page when established fact looking at its layout.</p>
+        </div>
+    </div>
+    <div class="w-11/12 mx-auto px-6 py-10">
+        <ul class="flex gap-5 justify-center">
+            <li>
+                <a class="py-1 px-3 text-white inline-block uppercase rounded-full bg-pink-500" href="#">All</a>
+            </li>
+            <li>
+                <a class="inline-block duration-500 uppercase py-1 px-3 hover:text-white hover:rounded-full hover:duration-500 hover:bg-pink-500"
+                    href="#">Seo</a>
+            </li>
+            <li>
+                <a class="inline-block duration-500 uppercase py-1 px-3 hover:text-white hover:rounded-full hover:duration-500 hover:bg-pink-500"
+                    href="#">Webdesign</a>
+            </li>
+            <li>
+                <a class="inline-block duration-500 uppercase py-1 px-3 hover:text-white hover:rounded-full hover:duration-500 hover:bg-pink-500"
+                    href="#">WORK</a>
+            </li>
+            <li>
+                <a class="inline-block duration-500 uppercase py-1 px-3 hover:text-white hover:rounded-full hover:duration-500 hover:bg-pink-500"
+                    href="#">Wordpress</a>
+            </li>
+        </ul>
+    </div>
+    <div class="2xl:w-4/6 md:w-11/12 w-full mx-auto px-6 pb-28 project">
+        <div class="grid xl:grid-cols-3 lg:grid-cols-3 gap-7">
+            <div class=" relative rounded card overflow-hidden">
+                <img class="w-full" src="Images/1.jpg" alt="">
+                <div class="flex justify-center items-center h-full  w-full absolute top-0 left-0 card-body ">
+                    <div class="text-center translate-y-40 card-content opacity-0">
+                        <p class="text-1xl font-normal text-white">myCategory</p>
+                        <h4 class="font-medium text-3xl text-white ">Project Title</h4>
+                    </div>
+                </div>
+            </div>
+            <div class=" relative rounded card overflow-hidden">
+                <img class="w-full" src="Images/2.jpg" alt="">
+                <div class="flex justify-center items-center h-full  w-full absolute top-0 left-0 card-body ">
+                    <div class="text-center translate-y-40 card-content opacity-0">
+                        <p class="text-1xl font-normal text-white">myCategory</p>
+                        <h4 class="font-medium text-3xl text-white ">Project Title</h4>
+                    </div>
+                </div>
+            </div>
+            <div class=" relative rounded card overflow-hidden">
+                <img class="w-full" src="Images/3.jpg" alt="">
+                <div class="flex justify-center items-center h-full  w-full absolute top-0 left-0 card-body ">
+                    <div class="text-center translate-y-40 card-content opacity-0">
+                        <p class="text-1xl font-normal text-white">myCategory</p>
+                        <h4 class="font-medium text-3xl text-white ">Project Title</h4>
+                    </div>
+                </div>
+            </div>
+            <div class=" relative rounded card overflow-hidden">
+                <img class="w-full" src="Images/4.jpg" alt="">
+                <div class="flex justify-center items-center h-full  w-full absolute top-0 left-0 card-body ">
+                    <div class="text-center translate-y-40 card-content opacity-0">
+                        <p class="text-1xl font-normal text-white">myCategory</p>
+                        <h4 class="font-medium text-3xl text-white ">Project Title</h4>
+                    </div>
+                </div>
+            </div>
+            <div class=" relative rounded card overflow-hidden">
+                <img class="w-full" src="Images/5.jpg" alt="">
+                <div class="flex justify-center items-center h-full  w-full absolute top-0 left-0 card-body ">
+                    <div class="text-center translate-y-40 card-content opacity-0">
+                        <p class="text-1xl font-normal text-white">myCategory</p>
+                        <h4 class="font-medium text-3xl text-white ">Project Title</h4>
+                    </div>
+                </div>
+            </div>
+            <div class=" relative rounded card overflow-hidden">
+                <img class="w-full" src="Images/6.jpg" alt="">
+                <div class="flex justify-center items-center h-full  w-full absolute top-0 left-0 card-body ">
+                    <div class="text-center translate-y-40 card-content opacity-0">
+                        <p class="text-1xl font-normal text-white">myCategory</p>
+                        <h4 class="font-medium text-3xl text-white ">Project Title</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="bg-[url('/Images/2.jpg')] bg-cover bg-no-repeat bg-center w-full h-60 relative rounded">
+                    <div
+                        class="bg-black opacity-0 h-60 w-full absolute rounded duration-300 hover:opacity-75 hover:duration-300">
+                        <div class="flex justify-center items-center h-full">
+                            <div class="text-center">
+                                <p class="text-1xl font-normal text-gray-500">Category</p>
+                                <h4 class="font-medium text-3xl text-white">Project Title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[url('/Images/3.jpg')] bg-cover bg-no-repeat bg-center w-full h-60 relative rounded">
+                    <div
+                        class="bg-black opacity-0 h-60 w-full absolute rounded duration-300 hover:opacity-75 hover:duration-300">
+                        <div class="flex justify-center items-center h-full">
+                            <div class="text-center">
+                                <p class="text-1xl font-normal text-gray-500">Category</p>
+                                <h4 class="font-medium text-3xl text-white">Project Title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[url('/Images/4.jpg')] bg-cover bg-no-repeat bg-center w-full h-60 relative rounded">
+                    <div
+                        class="bg-black opacity-0 h-60 w-full absolute rounded duration-300 hover:opacity-75 hover:duration-300">
+                        <div class="flex justify-center items-center h-full">
+                            <div class="text-center">
+                                <p class="text-1xl font-normal text-gray-500">Category</p>
+                                <h4 class="font-medium text-3xl text-white">Project Title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[url('/Images/5.jpg')] bg-cover bg-no-repeat bg-center w-full h-60 relative rounded">
+                    <div
+                        class="bg-black opacity-0 h-60 w-full absolute rounded duration-300 hover:opacity-75 hover:duration-300">
+                        <div class="flex justify-center items-center h-full">
+                            <div class="text-center">
+                                <p class="text-1xl font-normal text-gray-500">Category</p>
+                                <h4 class="font-medium text-3xl text-white">Project Title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[url('/Images/6.jpg')] bg-cover bg-no-repeat bg-center w-full h-60 relative rounded">
+                    <div
+                        class="bg-black opacity-0 h-60 w-full absolute rounded duration-300 hover:opacity-75 hover:duration-300">
+                        <div class="flex justify-center items-center h-full">
+                            <div class="text-center">
+                                <p class="text-1xl font-normal text-gray-500">Category</p>
+                                <h4 class="font-medium text-3xl text-white">Project Title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+    </div>
+    <div class="bg-gray-100">
+        <div class="w-11/12 mx-auto md:px-6 py-28 text-center">
+            <h2 class="text-3xl font-semibold text-gray-900 pb-6">Our <span
+                    class="text-3xl font-bold text-gray-900">Blog</span></h2>
+            <div class="2xl:w-1/2 lg:w-9/12 md:w-4/6 w-full mx-auto 2xl:px-36 lx:px-8">
+                <p class="text-1xl font-normal text-gray-500">It is a long established fact that a reader will be of a
+                    page
+                    when established fact looking at its layout.</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-100 pb-20">
+        <div class="2xl:w-4/6 md:w-11/12 w-full  px-6 mx-auto">
+            <div class="grid xl:grid-cols-3 lg:grid-cols-3 gap-7">
+                <div class="bg-white p-2 rounded">
+                    <img class="w-full rounded" src="Images/blog-1.jpg">
+                    <div class="py-4 pl-4 pr-2">
+                        <a href="#" class="font-bold inline-block text-xl pb-4 text-gray-900 cursor-pointer">There are
+                            many
+                            variations</a>
+                        <p class="pb-3 text-gray-500">11 March 2018<a class="font-bold text-base text-pink-500"
+                                href="#"> By Kerri</a>
+                        </p>
+                        <p class="text-1xl font-normal text-gray-500 pb-3">Sit sagittis vulputate laoreet sodales tortor
+                            nulla
+                            lobortis bibendum netus primis fames. Lobortis
+                            ultricies.</p>
+                        <a class="text-gray-600 text-base font-bold" href="#">Read More...</a>
+                    </div>
+                </div>
+                <div class="bg-white p-2 rounded">
+                    <img class="w-full rounded" src="Images/blog-2.jpg">
+                    <div class="py-4 pl-4 pr-2">
+                        <a href="#" class="font-bold inline-block text-xl pb-4 text-gray-900 cursor-pointer">Contrary to
+                            popular
+                            belief</a>
+                        <p class="pb-3 text-gray-500">18 March 2018<a class="font-bold text-base text-pink-500"
+                                href="#"> By Kerri</a>
+                        </p>
+                        <p class="text-1xl font-normal text-gray-500 pb-3">Sit sagittis vulputate laoreet sodales tortor
+                            nulla
+                            lobortis bibendum netus primis fames. Lobortis
+                            ultricies.</p>
+                        <a class="text-gray-600 text-base font-bold" href="#">Read More...</a>
+                    </div>
+                </div>
+                <div class="bg-white p-2 rounded">
+                    <img class="w-full rounded" src="Images/blog-3.jpg">
+                    <div class="py-4 pl-4 pr-2">
+                        <a href="#" class="inline-block font-bold text-xl pb-4 text-gray-900 cursor-pointer">Lorem Ipsum
+                            is not
+                            simply</a>
+                        <p class="pb-3 text-gray-500">22 March 2018<a class="font-bold text-base text-pink-500"
+                                href="#"> By Kerri</a>
+                        </p>
+                        <p class="text-1xl font-normal text-gray-500 pb-3">Sit sagittis vulputate laoreet sodales tortor
+                            nulla
+                            lobortis bibendum netus primis fames. Lobortis
+                            ultricies.</p>
+                        <a class="text-gray-600 text-base font-bold" href="#">Read More...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-11/12 mx-auto md:px-6 pt-28 text-center">
+        <h2 class="text-3xl font-semibold text-gray-900 pb-6"><span
+                class="text-3xl font-bold text-gray-900">Contact</span> Us</h2>
+        <div class="lg:w-9/12 md:w-4/6 2xl:w-1/2 mx-auto 2xl:px-36 xl:px-8">
+            <p class="text-1xl font-normal text-gray-500">It is a long established fact that a reader will be of a
+                page when established fact looking at its layout.</p>
+        </div>
+    </div>
+    <div class="2xl:w-4/6 md:w-11/12 w-full mx-auto px-6 pt-12 pb-20 text-center">
+        <div class="grid xl:grid-cols-3 lg:grid-cols-3">
+            <div class="justify-self-center xl:pb-0 p-5">
+                <i class="fa-solid fa-mobile-screen text-pink-500 text-5xl pb-4"></i>
+                <h5 class="text-lg font-bold text-gray-900">Call Us On</h5>
+                <p class="text-base font-medium text-gray-500">+985 123 7856</p>
+            </div>
+            <div class="justify-self-center xl:pb-0 p-5">
+                <i class="fa-regular fa-envelope text-pink-500 text-5xl pb-4"></i>
+                <h5 class="text-lg font-bold text-gray-900">Email Us At</h5>
+                <p class="text-base font-medium text-gray-500">Website.Kerri@gmail.com</p>
+            </div>
+            <div class="justify-self-center xl:pb-0 p-5">
+                <i class="fa-solid fa-location-dot text-pink-500 text-5xl pb-4"></i>
+                <h5 class="text-lg font-bold text-gray-900">Visit Office</h5>
+                <p class="text-base font-medium text-gray-500">202, Grasselli Street , Conway.6</p>
+            </div>
+        </div>
+    </div>
+    <div class="2xl:w-4/6 md:w-11/12 w-full mx-auto md:px-6 px-4 md:pt-28 pb-20 text-center">
+        <input
+            class="form md:w-full py-2.5 pl-4 md:mr-3 mx-0 md:mb-0 mb-4 rounded-sm text-base font-norma inline-block border-2 border-gray-300 focus:border-2 focus:outline-none focus:border-pink-500"
+            type="text" placeholder=" Your name...">
+        <input
+            class="form py-2.5 pl-4 md:mr-3 md:mx-2.5 rounded-sm text-base font-normal inline-block border-2 border-gray-300 focus:border-2 focus:outline-none focus:border-pink-500"
+            type="text" placeholder=" Your email...">
+        <input
+            class="form-sub pl-4 py-2.5 my-5 md:mx-2.5 rounded-sm text-base font-normal inline-block border-2 border-gray-300 focus:border-2 focus:outline-none focus:border-pink-500"
+            type="text" placeholder=" Your subject..">
+        <input
+            class="form-sub pb-24 pl-4 pt-2 rounded-sm text-base font-normal inline-block border-2 border-gray-300 focus:border-2 focus:outline-none focus:border-pink-500"
+            type="message" placeholder="Your Massage...">
+        <div class="flex justify-end md:mr-9 mr-0 mt-5">
+            <a class="uppercase py-4 px-8 text-white bg-pink-500 inline-block rounded-md" href="#">Send Massage</a>
+        </div>
+
+
+    </div>
+    <div class="bg-gray-900 py-24">
+        <div class="">
+            <ul class="flex justify-center">
+                <li class="mr-3">
+                    <a class="rounded-full py-2 px-4 inline-block bg-gray-800" href="#"><i
+                            class="fa-brands fa-facebook-f text-gray-400 hover:text-pink-500"></i></a>
+                </li>
+                <li class="mr-3">
+                    <a class="rounded-full py-2 px-3.5 inline-block bg-gray-800" href="#">
+                        <i class="fa-brands fa-linkedin-in text-gray-400 hover:text-pink-500"></i>
+                    </a>
+                </li>
+                <li class="mr-3">
+                    <a class="rounded-full py-2 px-3.5 inline-block bg-gray-800" href="#">
+                        <i class="fa-brands fa-pinterest-p text-gray-400 hover:text-pink-500"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="rounded-full py-2 px-3.5 inline-block bg-gray-800" href="#">
+                        <i class="fa-brands fa-twitter text-gray-400 hover:text-pink-500"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-base font-normal text-gray-400 text-center pt-4"> 2018 - 2021 © Kerri. Design by SRBThemes.
+            </p>
+        </div>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</body>
+
+</html>
